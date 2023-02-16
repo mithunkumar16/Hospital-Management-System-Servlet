@@ -35,7 +35,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 		<div class="row">
 			<div class="col-md-4 offset-md-2">
 				<div class="card paint-card">
-					<div class="card-body text-center text-success">
+					<div class="card-body text-center text-primary">
 						<i class="fas fa-user-md fa-3x"></i><br>
 						<p class="fs-4 text-center">Doctor<br><%=dao.countDoctor() %></p>
 					</div>				
@@ -44,7 +44,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 			</div>
 			<div class="col-md-4 ">
 				<div class="card paint-card">
-					<div class="card-body text-center text-success">
+					<div class="card-body text-center text-primary">
 						<i class="fas fa-calendar-check fa-3x"></i><br>
 						<p class="fs-4 text-center">Total Appointment<br><%=dao.countAppointmentByDocotrId(d.getId()) %></p>
 					</div>				

@@ -28,16 +28,16 @@ public class DoctorPasswordChange extends HttpServlet {
 
 			if (dao.changePassword(uid, newPassword)) {
 				session.setAttribute("succMsg", "Password Change Sucessfully");
-				resp.sendRedirect("doctor/edit_profile.jsp");
+				resp.sendRedirect("doctor/change_password.jsp");
 
 			} else {
 				session.setAttribute("errorMsg", "Something wrong on server");
-				resp.sendRedirect("doctor/edit_profile.jsp");
+				resp.sendRedirect("doctor/change_password.jsp");
 			}
 
 		} else {
 			session.setAttribute("errorMsg", "Old Password Incorrect");
-			resp.sendRedirect("doctor/edit_profile.jsp");
+			resp.sendRedirect("doctor/change_password.jsp");
 		}
 
 	}

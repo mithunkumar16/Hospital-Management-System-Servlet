@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MEDI HOME</title>
+<title>MH Hospital | HOME</title>
 <%@include file="component/allcss.jsp" %>
 <style type="text/css">
 .paint-card{
@@ -19,7 +19,10 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 </head>
 <body>
 <%@include file="component/navbar.jsp" %>
-
+<%
+Connection connection=DBConnect.getConnection();
+out.print(connection);
+%>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -58,8 +61,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 						<div class="card paint-card">
 							<div class="card-body">
 								<p class="fs-5">100% Safety</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Voluptatem, inventore</p>
+								<p>There is no shortage of safety slogans to be found  around the world A safe, clean, healthy, environment is integral to the full enjoyment .</p>
 							</div>
 						</div>
 					</div>
@@ -67,8 +69,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 						<div class="card paint-card">
 							<div class="card-body">
 								<p class="fs-5">Clean Environment</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Voluptatem, inventore</p>
+								<p>A clean and healthy environment has safe food and water supply,proper waste disposal,clean air,no pests such as flies, cockroaches and mosquitoes </p>
 							</div>
 						</div>
 					</div>
@@ -76,8 +77,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 						<div class="card paint-card">
 							<div class="card-body">
 								<p class="fs-5">Friendly Doctors</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Voluptatem, inventore</p>
+								<p>Friendly Doctor stock photos, pictures and royalty-free images from iStock.  you won't find anywhere Find high-quality stock photos that you won't find anywhere</p>
 							</div>
 						</div>
 					</div>
@@ -85,8 +85,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
 						<div class="card paint-card">
 							<div class="card-body">
 								<p class="fs-5">Medical Research</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-									Voluptatem, inventore</p>
+								<p>Read Our Latest Independent Research and Analysis on Health and Social Care. Stay Informed and Learn More About the Issues Currently Impacting Health and Social Care.</p>
 							</div>
 						</div>
 					</div>

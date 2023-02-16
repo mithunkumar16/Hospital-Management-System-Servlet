@@ -134,11 +134,11 @@ response.setDateHeader("Expires", 0);
 
 							<c:if test="${empty userObj }">
 								<a href="user_login.jsp"
-									class="col-md-6 offset-md-3 btn btn-success">Submit</a>
+									class="col-md-6 offset-md-3 btn bg-primary text-white">Submit</a>
 							</c:if>
 
 							<c:if test="${not empty userObj }">
-								<button class="col-md-6 offset-md-3 btn btn-success">Submit</button>
+								<button class="col-md-6 offset-md-3 btn bg-primary text-white">Submit</button>
 							</c:if>
 						</form>
 					</div>

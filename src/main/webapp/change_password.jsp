@@ -47,7 +47,7 @@
 									name="oldPassword" class="form-control" required>
 							</div>
 							<input type="hidden" value="${userObj.id }" name="uid">
-							<button class="btn btn-success col-md-12">Change
+							<button class="btn bg-primary col-md-12">Change
 								Password</button>
 						</form>
 					</div>

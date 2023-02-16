@@ -89,7 +89,7 @@
 									name="password" type="password" class="form-control">
 							</div>
 
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn bg-primary text-white col-md-12">Submit</button>
 						</form>
 					</div>
 				</div>
